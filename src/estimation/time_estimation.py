@@ -24,12 +24,9 @@ class SAPEffortEstimator:
         import os
 
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
         self.DATASET_PATH = os.path.join(
-            BASE_DIR,
-            "..",
-            "..",
-            "datasets",
-            "sap_effort_dataset.csv"
+            BASE_DIR, "..", "..", "data", "effort_training_dataset.csv"
         )
 
         self.CATEGORICAL_COLS = [
