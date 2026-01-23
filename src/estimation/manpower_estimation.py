@@ -1,114 +1,228 @@
 import os
 import pandas as pd
 import numpy as np
+import joblib
 
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
+from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 
 class SAPManpowerEstimator:
     """
-    Chained manpower estimation using predicted duration.
+    Chained Manpower Estimator
+    Uses predicted_duration
+    Target: actual_work_quantity
     """
 
     def __init__(self):
+
         # -----------------------------
-        # Path handling (robust)
+        # Paths
         # -----------------------------
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-        self.DATASET_PATH = os.path.join(
-            BASE_DIR, "..", "..", "data", "effort_training_dataset.csv"
+        self.BASE_DATA = os.path.join(BASE_DIR, "..", "..", "data")
+
+        self.BASESET = os.path.join(
+            self.BASE_DATA,
+            "effort_training_dataset.csv"
         )
 
+        self.TIME_PRED = os.path.join(
+            self.BASE_DATA,
+            "predicted_time.csv"
+        )
+
+        self.OUT = os.path.join(
+            self.BASE_DATA,
+            "predicted_manpower.csv"
+        )
+
+        self.MODEL = os.path.join(
+            BASE_DIR, "..", "..", "models", "manpower_model.pkl"
+        )
+
+        os.makedirs(os.path.dirname(self.MODEL), exist_ok=True)
 
         # -----------------------------
-        # Column definitions
+        # Features
         # -----------------------------
-        self.CATEGORICAL_COLS = [
+        self.CATEGORICAL = [
             "operation_type",
             "equipment",
             "plant"
         ]
 
-        self.NUMERICAL_COLS = [
+        self.NUMERICAL = [
             "planned_work_quantity",
             "predicted_duration"
         ]
 
-        self.TARGET_COL = "actual_work_quantity"
+        self.TARGET = "actual_work_quantity"
 
         # -----------------------------
-        # Run pipeline
+        # Models
         # -----------------------------
-        self.load_data()
-        self.build_pipeline()
-        self.run_cross_validation()
+        self.models = {
+            "Linear": LinearRegression(),
+            "Ridge": RidgeCV(alphas=[0.1, 1, 10]),
+            "Lasso": LassoCV(cv=5),
+            "RF": RandomForestRegressor(
+                n_estimators=200,
+                random_state=42
+            )
+        }
 
-    def load_data(self):
-        print("\nLoading SAP dataset for manpower estimation...")
-        df = pd.read_csv(self.DATASET_PATH)
+        # -----------------------------
+        # Run
+        # -----------------------------
+        self.load()
+        self.prep()
+        self.eval()
+        self.train()
+        self.export()
 
-        # Simulate predicted duration (as output of Step 5 model)
-        # In real system, this comes from the time estimator
-        df["predicted_duration"] = (
-            df["planned_duration"]
-            * np.random.uniform(0.9, 1.1, size=len(df))
+    # -----------------------------
+    # Load
+    # -----------------------------
+    def load(self):
+
+        print("\nLoading manpower dataset...")
+
+        base = pd.read_csv(self.BASESET)
+        time = pd.read_csv(self.TIME_PRED)
+
+        if "operation_id" not in base:
+            raise ValueError("Missing operation_id in base")
+
+        if "operation_id" not in time:
+            raise ValueError("Missing operation_id in time")
+
+        if "predicted_duration" not in time:
+            raise ValueError("Missing predicted_duration")
+
+        time = time[["operation_id", "predicted_duration"]]
+
+        df = base.merge(
+            time,
+            on="operation_id",
+            validate="one_to_one"
         )
 
-        self.X = df[
-            self.CATEGORICAL_COLS +
-            self.NUMERICAL_COLS
-        ]
+        if df["predicted_duration"].isna().any():
+            raise ValueError("Run time model first")
 
-        self.y = df[self.TARGET_COL]
+        self.df = df
 
-        print("Dataset shape:", df.shape)
+        self.X = df[self.CATEGORICAL + self.NUMERICAL]
+        self.y = df[self.TARGET]
+
+        print("Rows:", len(df))
         print(df.head())
 
-    def build_pipeline(self):
-        self.preprocessor = ColumnTransformer(
-            transformers=[
-                ("cat", OneHotEncoder(handle_unknown="ignore"),
-                 self.CATEGORICAL_COLS),
-                ("num", "passthrough",
-                 self.NUMERICAL_COLS),
+    # -----------------------------
+    # Prep
+    # -----------------------------
+    def prep(self):
+
+        self.prep_pipe = ColumnTransformer(
+            [
+                ("cat",
+                 OneHotEncoder(handle_unknown="ignore"),
+                 self.CATEGORICAL),
+
+                ("num",
+                 "passthrough",
+                 self.NUMERICAL),
             ]
         )
 
-        self.model = Pipeline(
-            steps=[
-                ("preprocess", self.preprocessor),
-                ("regressor", LinearRegression())
-            ]
-        )
+    # -----------------------------
+    # CV
+    # -----------------------------
+    def eval(self):
 
-    def run_cross_validation(self):
-        print("\nRunning manpower estimation (10-fold CV)\n")
+        print("\nEvaluating manpower models...\n")
 
-        kf = KFold(n_splits=10, shuffle=True, random_state=42)
+        kf = KFold(10, shuffle=True, random_state=42)
 
-        maes, rmses, r2s = [], [], []
+        self.scores = {}
 
-        for train_idx, test_idx in kf.split(self.X):
-            X_train, X_test = self.X.iloc[train_idx], self.X.iloc[test_idx]
-            y_train, y_test = self.y.iloc[train_idx], self.y.iloc[test_idx]
+        for name, model in self.models.items():
 
-            self.model.fit(X_train, y_train)
-            preds = self.model.predict(X_test)
+            rmses = []
 
-            maes.append(mean_absolute_error(y_test, preds))
-            rmses.append(np.sqrt(mean_squared_error(y_test, preds)))
-            r2s.append(r2_score(y_test, preds))
+            pipe = Pipeline([
+                ("prep", self.prep_pipe),
+                ("model", model)
+            ])
 
-        print(f"MAE : {np.mean(maes):.3f}")
-        print(f"RMSE: {np.mean(rmses):.3f}")
-        print(f"R²  : {np.mean(r2s):.3f}")
+            for tr, te in kf.split(self.X):
+
+                Xtr, Xte = self.X.iloc[tr], self.X.iloc[te]
+                ytr, yte = self.y.iloc[tr], self.y.iloc[te]
+
+                pipe.fit(Xtr, ytr)
+                p = pipe.predict(Xte)
+
+                rmses.append(
+                    np.sqrt(mean_squared_error(yte, p))
+                )
+
+            self.scores[name] = np.mean(rmses)
+
+            print(name, "RMSE:", round(self.scores[name], 3))
+
+    # -----------------------------
+    # Train
+    # -----------------------------
+    def train(self):
+
+        best = min(self.scores, key=self.scores.get)
+
+        print("\nBest manpower model:", best)
+
+        self.final = Pipeline([
+            ("prep", self.prep_pipe),
+            ("model", self.models[best])
+        ])
+
+        self.final.fit(self.X, self.y)
+
+        joblib.dump(self.final, self.MODEL)
+
+        print("Saved:", self.MODEL)
+
+    # -----------------------------
+    # Export
+    # -----------------------------
+    def export(self):
+
+        print("\nExporting manpower predictions...")
+
+        p = self.final.predict(self.X)
+
+        out = self.df.copy()
+
+        out["predicted_manpower"] = np.maximum(
+            1,
+            np.round(p)
+        ).astype(int)
+
+        out = out[[
+            "operation_id",
+            "predicted_manpower"
+        ]]
+
+        out.to_csv(self.OUT, index=False)
+
+        print("Saved:", self.OUT)
 
 
 if __name__ == "__main__":

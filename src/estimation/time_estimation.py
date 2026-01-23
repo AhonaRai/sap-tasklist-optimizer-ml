@@ -1,5 +1,7 @@
+import os
 import pandas as pd
 import numpy as np
+import joblib
 
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import OneHotEncoder
@@ -11,132 +13,193 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 
-class SAPEffortEstimator:
+class SAPTimeEstimator:
     """
-    SAP Task List Effort Estimation
+    End-to-End SAP Time Estimation
     Target: actual_duration
+    Outputs: predicted_time.csv
     """
 
     def __init__(self):
-        # -----------------------------
-        # 1. Configuration
-        # -----------------------------
-        import os
 
+        # -----------------------------
+        # Paths
+        # -----------------------------
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
+        self.BASE_DATA = os.path.join(BASE_DIR, "..", "..", "data")
+
         self.DATASET_PATH = os.path.join(
-            BASE_DIR, "..", "..", "data", "effort_training_dataset.csv"
+            self.BASE_DATA,
+            "effort_training_dataset.csv"
         )
 
-        self.CATEGORICAL_COLS = [
+        self.OUTPUT_PATH = os.path.join(
+            self.BASE_DATA,
+            "predicted_time.csv"
+        )
+
+        self.MODEL_PATH = os.path.join(
+            BASE_DIR, "..", "..", "models", "time_model.pkl"
+        )
+
+        os.makedirs(os.path.dirname(self.MODEL_PATH), exist_ok=True)
+
+        # -----------------------------
+        # Features
+        # -----------------------------
+        self.CATEGORICAL = [
             "operation_type",
             "equipment",
             "plant"
         ]
 
-        self.NUMERICAL_COLS = [
+        self.NUMERICAL = [
             "planned_duration",
             "planned_work_quantity",
             "planned_material_qty"
         ]
 
-        self.TARGET_COL = "actual_duration"
+        self.TARGET = "actual_duration"
 
+        # -----------------------------
+        # Models
+        # -----------------------------
         self.models = {
-            "LinearRegression": LinearRegression(),
-            "Ridge": RidgeCV(alphas=[0.1, 1.0, 10.0]),
+            "Linear": LinearRegression(),
+            "Ridge": RidgeCV(alphas=[0.1, 1, 10]),
             "Lasso": LassoCV(cv=5),
-            "ElasticNet": ElasticNetCV(cv=5),
-            "RandomForest": RandomForestRegressor(
+            "Elastic": ElasticNetCV(cv=5),
+            "RF": RandomForestRegressor(
                 n_estimators=300,
                 random_state=42
             )
         }
 
         # -----------------------------
-        # 2. Load & prepare data
+        # Run
         # -----------------------------
         self.load_data()
-        self.build_pipeline()
-        self.run_cross_validation()
+        self.build_preprocessor()
+        self.evaluate_models()
+        self.train_best()
+        self.export_predictions()
 
     # -----------------------------
-    # Data handling
+    # Load
     # -----------------------------
     def load_data(self):
-        print("\nLoading SAP effort dataset...")
-        self.df = pd.read_csv(self.DATASET_PATH)
 
-        required_cols = (
-            self.CATEGORICAL_COLS +
-            self.NUMERICAL_COLS +
-            [self.TARGET_COL]
-        )
+        print("\nLoading time dataset...")
 
-        missing = set(required_cols) - set(self.df.columns)
-        if missing:
-            raise ValueError(f"Missing columns in dataset: {missing}")
+        df = pd.read_csv(self.DATASET_PATH)
 
-        print("Dataset shape:", self.df.shape)
-        print(self.df.head())
+        if "operation_id" not in df.columns:
+            raise ValueError("Missing operation_id")
 
-        self.X = self.df[self.CATEGORICAL_COLS + self.NUMERICAL_COLS]
-        self.y = self.df[self.TARGET_COL]
+        self.df = df
+
+        self.X = df[self.CATEGORICAL + self.NUMERICAL]
+        self.y = df[self.TARGET]
+
+        print("Rows:", len(df))
+        print(df.head())
 
     # -----------------------------
-    # ML pipeline
+    # Preprocess
     # -----------------------------
-    def build_pipeline(self):
+    def build_preprocessor(self):
+
         self.preprocessor = ColumnTransformer(
-            transformers=[
-                ("cat", OneHotEncoder(handle_unknown="ignore"),
-                 self.CATEGORICAL_COLS),
-                ("num", "passthrough", self.NUMERICAL_COLS),
+            [
+                ("cat",
+                 OneHotEncoder(handle_unknown="ignore"),
+                 self.CATEGORICAL),
+
+                ("num",
+                 "passthrough",
+                 self.NUMERICAL),
             ]
         )
 
     # -----------------------------
-    # Evaluation
+    # CV
     # -----------------------------
-    def run_cross_validation(self):
-        print("\nRunning 10-fold cross-validation...\n")
+    def evaluate_models(self):
 
-        kf = KFold(n_splits=10, shuffle=True, random_state=42)
+        print("\nEvaluating time models...\n")
 
-        for model_name, model in self.models.items():
-            rmses, maes, r2s = [], [], []
+        kf = KFold(10, shuffle=True, random_state=42)
 
-            pipeline = Pipeline(
-                steps=[
-                    ("preprocess", self.preprocessor),
-                    ("model", model)
-                ]
-            )
+        self.scores = {}
 
-            for train_idx, test_idx in kf.split(self.X):
-                X_train, X_test = self.X.iloc[train_idx], self.X.iloc[test_idx]
-                y_train, y_test = self.y.iloc[train_idx], self.y.iloc[test_idx]
+        for name, model in self.models.items():
 
-                pipeline.fit(X_train, y_train)
-                preds = pipeline.predict(X_test)
+            rmses = []
+
+            pipe = Pipeline([
+                ("prep", self.preprocessor),
+                ("model", model)
+            ])
+
+            for tr, te in kf.split(self.X):
+
+                Xtr, Xte = self.X.iloc[tr], self.X.iloc[te]
+                ytr, yte = self.y.iloc[tr], self.y.iloc[te]
+
+                pipe.fit(Xtr, ytr)
+                p = pipe.predict(Xte)
 
                 rmses.append(
-                    np.sqrt(mean_squared_error(y_test, preds))
-                )
-                maes.append(
-                    mean_absolute_error(y_test, preds)
-                )
-                r2s.append(
-                    r2_score(y_test, preds)
+                    np.sqrt(mean_squared_error(yte, p))
                 )
 
-            print(f"Model: {model_name}")
-            print(f"  RMSE: {np.mean(rmses):.3f}")
-            print(f"  MAE : {np.mean(maes):.3f}")
-            print(f"  R²  : {np.mean(r2s):.3f}")
-            print("-" * 40)
+            self.scores[name] = np.mean(rmses)
+
+            print(name, "RMSE:", round(self.scores[name], 3))
+
+    # -----------------------------
+    # Train Best
+    # -----------------------------
+    def train_best(self):
+
+        self.best = min(self.scores, key=self.scores.get)
+
+        print("\nBest time model:", self.best)
+
+        self.final_model = Pipeline([
+            ("prep", self.preprocessor),
+            ("model", self.models[self.best])
+        ])
+
+        self.final_model.fit(self.X, self.y)
+
+        joblib.dump(self.final_model, self.MODEL_PATH)
+
+        print("Saved:", self.MODEL_PATH)
+
+    # -----------------------------
+    # Export
+    # -----------------------------
+    def export_predictions(self):
+
+        print("\nExporting time predictions...")
+
+        preds = self.final_model.predict(self.X)
+
+        out = self.df.copy()
+
+        out["predicted_duration"] = preds
+
+        out = out[[
+            "operation_id",
+            "predicted_duration"
+        ]]
+
+        out.to_csv(self.OUTPUT_PATH, index=False)
+
+        print("Saved:", self.OUTPUT_PATH)
 
 
 if __name__ == "__main__":
-    SAPEffortEstimator()
+    SAPTimeEstimator()

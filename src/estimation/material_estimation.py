@@ -1,6 +1,7 @@
 import os
 import pandas as pd
 import numpy as np
+import joblib
 
 from sklearn.model_selection import KFold
 from sklearn.preprocessing import OneHotEncoder
@@ -13,103 +14,187 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score
 
 class SAPMaterialEstimator:
     """
-    Stage 7: Material requirement estimation (hybrid).
+    End-to-End Material Requirement Estimator
+    Predicts: Whether material is required (0/1)
     """
 
     def __init__(self):
+
+        # -----------------------------
+        # Paths
+        # -----------------------------
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-        self.DATASET_PATH = os.path.join(
-            BASE_DIR, "..", "..", "data", "effort_training_dataset.csv"
+        self.DATA_DIR = os.path.join(BASE_DIR, "..", "..", "data")
+
+        self.BASESET = os.path.join(
+            self.DATA_DIR,
+            "effort_training_dataset.csv"
         )
 
+        self.TIME_PRED = os.path.join(
+            self.DATA_DIR,
+            "predicted_time.csv"
+        )
 
-        self.CATEGORICAL_COLS = [
+        self.MAN_PRED = os.path.join(
+            self.DATA_DIR,
+            "predicted_manpower.csv"
+        )
+
+        self.OUTPUT = os.path.join(
+            self.DATA_DIR,
+            "predicted_material.csv"
+        )
+
+        self.MODEL = os.path.join(
+            BASE_DIR, "..", "..", "models", "material_model.pkl"
+        )
+
+        os.makedirs(os.path.dirname(self.MODEL), exist_ok=True)
+
+        # -----------------------------
+        # Features
+        # -----------------------------
+        self.CATEGORICAL = [
             "operation_type",
             "equipment",
             "plant"
         ]
 
-        self.NUMERICAL_COLS = [
+        self.NUMERICAL = [
             "predicted_duration",
             "predicted_manpower"
         ]
 
+        self.TARGET = "material_required"
+
+        # -----------------------------
+        # Run
+        # -----------------------------
         self.load_data()
         self.build_pipeline()
-        self.run_cross_validation()
+        self.evaluate()
+        self.train_final()
+        self.export_predictions()
 
     # -----------------------------
-    # Data preparation
+    # Load & Merge Data
     # -----------------------------
     def load_data(self):
-        print("\nLoading SAP dataset for material estimation...")
-        df = pd.read_csv(self.DATASET_PATH)
 
-        # Simulate upstream predictions
-        df["predicted_duration"] = (
-            df["planned_duration"] * np.random.uniform(0.9, 1.1, len(df))
-        )
+        print("\nLoading material dataset...")
 
-        df["predicted_manpower"] = (
-            df["planned_work_quantity"]
-            + np.random.choice([0, 1], size=len(df), p=[0.7, 0.3])
-        )
+        base = pd.read_csv(self.BASESET)
+        time = pd.read_csv(self.TIME_PRED)
+        man = pd.read_csv(self.MAN_PRED)
 
-        # Binary target: material required or not
-        df["material_required"] = (df["actual_material_qty"] > 0).astype(int)
+        # Merge predictions
+        df = base.merge(time, on="operation_id")
+        df = df.merge(man, on="operation_id")
 
-        self.X = df[self.CATEGORICAL_COLS + self.NUMERICAL_COLS]
-        self.y = df["material_required"]
+        # Binary target
+        df["material_required"] = (
+            df["actual_material_qty"] > 0
+        ).astype(int)
 
-        print("Dataset shape:", df.shape)
+        self.df = df
+
+        self.X = df[self.CATEGORICAL + self.NUMERICAL]
+        self.y = df[self.TARGET]
+
+        print("Rows:", len(df))
         print(df.head())
 
     # -----------------------------
-    # ML pipeline
+    # Build Pipeline
     # -----------------------------
     def build_pipeline(self):
+
         self.preprocessor = ColumnTransformer(
-            transformers=[
-                ("cat", OneHotEncoder(handle_unknown="ignore"),
-                 self.CATEGORICAL_COLS),
-                ("num", "passthrough",
-                 self.NUMERICAL_COLS),
+            [
+                (
+                    "cat",
+                    OneHotEncoder(handle_unknown="ignore"),
+                    self.CATEGORICAL
+                ),
+                (
+                    "num",
+                    "passthrough",
+                    self.NUMERICAL
+                )
             ]
         )
 
-        self.model = Pipeline(
-            steps=[
-                ("preprocess", self.preprocessor),
-                ("classifier", LogisticRegression(max_iter=1000))
+        self.pipeline = Pipeline(
+            [
+                ("prep", self.preprocessor),
+                ("clf", LogisticRegression(max_iter=1000))
             ]
         )
 
     # -----------------------------
-    # Evaluation
+    # Cross Validation
     # -----------------------------
-    def run_cross_validation(self):
-        print("\nRunning material requirement classification (10-fold CV)\n")
+    def evaluate(self):
 
-        kf = KFold(n_splits=10, shuffle=True, random_state=42)
+        print("\nEvaluating material model (10-fold CV)\n")
+
+        kf = KFold(10, shuffle=True, random_state=42)
 
         accs, precs, recalls = [], [], []
 
-        for train_idx, test_idx in kf.split(self.X):
-            X_train, X_test = self.X.iloc[train_idx], self.X.iloc[test_idx]
-            y_train, y_test = self.y.iloc[train_idx], self.y.iloc[test_idx]
+        for tr, te in kf.split(self.X):
 
-            self.model.fit(X_train, y_train)
-            preds = self.model.predict(X_test)
+            Xtr = self.X.iloc[tr]
+            Xte = self.X.iloc[te]
 
-            accs.append(accuracy_score(y_test, preds))
-            precs.append(precision_score(y_test, preds))
-            recalls.append(recall_score(y_test, preds))
+            ytr = self.y.iloc[tr]
+            yte = self.y.iloc[te]
+
+            self.pipeline.fit(Xtr, ytr)
+
+            preds = self.pipeline.predict(Xte)
+
+            accs.append(accuracy_score(yte, preds))
+            precs.append(precision_score(yte, preds))
+            recalls.append(recall_score(yte, preds))
 
         print(f"Accuracy : {np.mean(accs):.3f}")
         print(f"Precision: {np.mean(precs):.3f}")
         print(f"Recall   : {np.mean(recalls):.3f}")
 
+    # -----------------------------
+    # Final Training
+    # -----------------------------
+    def train_final(self):
+
+        print("\nTraining final material model...")
+
+        self.pipeline.fit(self.X, self.y)
+
+        joblib.dump(self.pipeline, self.MODEL)
+
+        print("Saved model →", self.MODEL)
+
+    # -----------------------------
+    # Export Predictions
+    # -----------------------------
+    def export_predictions(self):
+
+        print("\nExporting material predictions...")
+
+        preds = self.pipeline.predict(self.X)
+
+        out = self.df[["operation_id"]].copy()
+
+        out["predicted_material_required"] = preds
+
+        out.to_csv(self.OUTPUT, index=False)
+
+        print("Saved predictions →", self.OUTPUT)
+
 
 if __name__ == "__main__":
+
     SAPMaterialEstimator()

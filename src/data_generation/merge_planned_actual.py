@@ -1,21 +1,33 @@
 import pandas as pd
-planned_df = pd.read_csv("data/planned_tasklist_operations.csv")
-actual_df = pd.read_csv("data/actual_maintenance_operations.csv")
-merged_df = planned_df.merge(
-    actual_df,
-    on=["tasklist_group", "operation_id"],
-    how="inner"
+
+planned = pd.read_csv("data/planned_tasklist_operations.csv")
+actual = pd.read_csv("data/actual_maintenance_operations.csv")
+
+merged = planned.merge(
+    actual,
+    on="operation_id",
+    how="inner",
+    suffixes=("_plan", "_act")
 )
 
-assert len(merged_df) == len(planned_df), "Row mismatch after merge"
+# Safety check
+assert len(merged) == len(planned)
 
-effort_df = merged_df[[
+# Unify order_id (they should be identical)
+merged["order_id"] = merged["order_id_plan"]
+
+effort_df = merged[[
+    "order_id",
+    "operation_id",
+
     "operation_type",
     "equipment",
     "plant",
+
     "planned_duration",
     "planned_work_quantity",
     "planned_material_qty",
+
     "actual_duration",
     "actual_work_quantity",
     "actual_material_qty"
@@ -26,6 +38,6 @@ effort_df.to_csv(
     index=False
 )
 
-print("Effort estimation dataset created.")
+print("Merged dataset created")
 print(effort_df.head())
-
+print(len(effort_df))

@@ -1,0 +1,130 @@
+operation_id,time_update,manpower_update,material_update,confidence,frequency,time_overrun_rate,manpower_overrun_rate,material_overuse_rate,reasons
+OP_1001,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1004,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1005,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1008,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1009,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1010,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1011,-1.19,,1.0,LOW,1,0.0,0.0,1.0,Avg time gap -1.19 hrs; Avg material gap 1.0
+OP_1012,,1.0,1.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 1.0
+OP_1015,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1017,,,3.0,LOW,1,0.0,0.0,1.0,Avg material gap 3.0
+OP_1018,,1.0,1.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 1.0
+OP_1020,-0.71,1.0,1.0,LOW,1,0.0,1.0,1.0,Avg time gap -0.71 hrs; Avg manpower gap 1.0; Avg material gap 1.0
+OP_1021,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1022,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1023,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1026,,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 2.0
+OP_1027,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1029,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1032,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1033,-1.59,1.0,,LOW,1,0.0,1.0,0.0,Avg time gap -1.59 hrs; Avg manpower gap 1.0
+OP_1036,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1038,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1040,,1.0,1.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 1.0
+OP_1042,0.94,,,LOW,1,1.0,0.0,0.0,Avg time gap 0.94 hrs
+OP_1043,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1045,-0.62,1.0,,LOW,1,0.0,1.0,0.0,Avg time gap -0.62 hrs; Avg manpower gap 1.0
+OP_1046,-1.16,,2.0,LOW,1,0.0,0.0,1.0,Avg time gap -1.16 hrs; Avg material gap 2.0
+OP_1048,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1050,0.88,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.88 hrs; Avg material gap 2.0
+OP_1053,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1056,1.08,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 1.08 hrs; Avg material gap 2.0
+OP_1057,0.7,1.0,,LOW,1,1.0,1.0,0.0,Avg time gap 0.7 hrs; Avg manpower gap 1.0
+OP_1060,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1061,0.67,,1.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.67 hrs; Avg material gap 1.0
+OP_1062,0.51,,,LOW,1,1.0,0.0,0.0,Avg time gap 0.51 hrs
+OP_1063,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1064,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1067,-0.93,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg time gap -0.93 hrs; Avg manpower gap 1.0; Avg material gap 2.0
+OP_1068,1.23,,1.0,LOW,1,1.0,0.0,1.0,Avg time gap 1.23 hrs; Avg material gap 1.0
+OP_1069,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1070,1.4,,1.0,LOW,1,1.0,0.0,1.0,Avg time gap 1.4 hrs; Avg material gap 1.0
+OP_1071,-0.82,,2.0,LOW,1,0.0,0.0,1.0,Avg time gap -0.82 hrs; Avg material gap 2.0
+OP_1072,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1073,0.81,,,LOW,1,1.0,0.0,0.0,Avg time gap 0.81 hrs
+OP_1074,0.55,,,LOW,1,1.0,0.0,0.0,Avg time gap 0.55 hrs
+OP_1075,0.7,,1.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.7 hrs; Avg material gap 1.0
+OP_1078,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1081,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1082,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1084,1.06,1.0,,LOW,1,1.0,1.0,0.0,Avg time gap 1.06 hrs; Avg manpower gap 1.0
+OP_1085,-0.59,,2.0,LOW,1,0.0,0.0,1.0,Avg time gap -0.59 hrs; Avg material gap 2.0
+OP_1086,-1.14,,,LOW,1,0.0,0.0,0.0,Avg time gap -1.14 hrs
+OP_1088,-1.27,,,LOW,1,0.0,0.0,0.0,Avg time gap -1.27 hrs
+OP_1091,,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 2.0
+OP_1092,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1093,-1.82,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg time gap -1.82 hrs; Avg manpower gap 1.0; Avg material gap 2.0
+OP_1094,0.74,1.0,,LOW,1,1.0,1.0,0.0,Avg time gap 0.74 hrs; Avg manpower gap 1.0
+OP_1096,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1097,-0.91,,1.0,LOW,1,0.0,0.0,1.0,Avg time gap -0.91 hrs; Avg material gap 1.0
+OP_1098,-0.56,,,LOW,1,0.0,0.0,0.0,Avg time gap -0.56 hrs
+OP_1101,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1102,1.11,,,LOW,1,1.0,0.0,0.0,Avg time gap 1.11 hrs
+OP_1103,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1104,-0.74,1.0,,LOW,1,0.0,1.0,0.0,Avg time gap -0.74 hrs; Avg manpower gap 1.0
+OP_1105,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1106,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1107,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1110,-0.94,,,LOW,1,0.0,0.0,0.0,Avg time gap -0.94 hrs
+OP_1112,-1.51,,,LOW,1,0.0,0.0,0.0,Avg time gap -1.51 hrs
+OP_1113,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1114,,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 2.0
+OP_1115,,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 2.0
+OP_1117,,,3.0,LOW,1,0.0,0.0,1.0,Avg material gap 3.0
+OP_1121,-0.58,,,LOW,1,0.0,0.0,0.0,Avg time gap -0.58 hrs
+OP_1122,1.24,1.0,2.0,LOW,1,1.0,1.0,1.0,Avg time gap 1.24 hrs; Avg manpower gap 1.0; Avg material gap 2.0
+OP_1125,0.54,,1.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.54 hrs; Avg material gap 1.0
+OP_1128,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1129,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1134,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1135,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1136,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1137,0.56,1.0,2.0,LOW,1,1.0,1.0,1.0,Avg time gap 0.56 hrs; Avg manpower gap 1.0; Avg material gap 2.0
+OP_1138,,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 2.0
+OP_1139,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1140,0.94,1.0,,LOW,1,1.0,1.0,0.0,Avg time gap 0.94 hrs; Avg manpower gap 1.0
+OP_1142,1.53,1.0,,LOW,1,1.0,1.0,0.0,Avg time gap 1.53 hrs; Avg manpower gap 1.0
+OP_1143,0.93,1.0,,LOW,1,1.0,1.0,0.0,Avg time gap 0.93 hrs; Avg manpower gap 1.0
+OP_1144,0.73,,,LOW,1,1.0,0.0,0.0,Avg time gap 0.73 hrs
+OP_1145,-1.79,1.0,2.0,LOW,1,0.0,1.0,1.0,Avg time gap -1.79 hrs; Avg manpower gap 1.0; Avg material gap 2.0
+OP_1147,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1148,0.6,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.6 hrs; Avg material gap 2.0
+OP_1149,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1150,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1152,,1.0,3.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 3.0
+OP_1153,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1154,0.64,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.64 hrs; Avg material gap 2.0
+OP_1156,-0.62,,1.0,LOW,1,0.0,0.0,1.0,Avg time gap -0.62 hrs; Avg material gap 1.0
+OP_1157,0.93,,,LOW,1,1.0,0.0,0.0,Avg time gap 0.93 hrs
+OP_1159,0.56,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.56 hrs; Avg material gap 2.0
+OP_1160,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1161,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1162,1.53,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 1.53 hrs; Avg material gap 2.0
+OP_1163,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1164,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1165,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1166,0.54,1.0,2.0,LOW,1,1.0,1.0,1.0,Avg time gap 0.54 hrs; Avg manpower gap 1.0; Avg material gap 2.0
+OP_1167,0.66,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.66 hrs; Avg material gap 2.0
+OP_1168,-0.94,1.0,,LOW,1,0.0,1.0,0.0,Avg time gap -0.94 hrs; Avg manpower gap 1.0
+OP_1169,,1.0,1.0,LOW,1,0.0,1.0,1.0,Avg manpower gap 1.0; Avg material gap 1.0
+OP_1172,-0.98,,2.0,LOW,1,0.0,0.0,1.0,Avg time gap -0.98 hrs; Avg material gap 2.0
+OP_1173,-0.62,,1.0,LOW,1,0.0,0.0,1.0,Avg time gap -0.62 hrs; Avg material gap 1.0
+OP_1174,-1.2,,,LOW,1,0.0,0.0,0.0,Avg time gap -1.2 hrs
+OP_1175,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1176,0.56,,,LOW,1,1.0,0.0,0.0,Avg time gap 0.56 hrs
+OP_1177,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1179,0.77,1.0,,LOW,1,1.0,1.0,0.0,Avg time gap 0.77 hrs; Avg manpower gap 1.0
+OP_1181,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1182,,1.0,,LOW,1,0.0,1.0,0.0,Avg manpower gap 1.0
+OP_1183,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1184,0.56,,2.0,LOW,1,1.0,0.0,1.0,Avg time gap 0.56 hrs; Avg material gap 2.0
+OP_1186,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1188,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1190,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1192,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1193,,,2.0,LOW,1,0.0,0.0,1.0,Avg material gap 2.0
+OP_1194,-1.34,,,LOW,1,0.0,0.0,0.0,Avg time gap -1.34 hrs
+OP_1195,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0
+OP_1196,-0.53,,2.0,LOW,1,0.0,0.0,1.0,Avg time gap -0.53 hrs; Avg material gap 2.0
+OP_1198,,,1.0,LOW,1,0.0,0.0,1.0,Avg material gap 1.0

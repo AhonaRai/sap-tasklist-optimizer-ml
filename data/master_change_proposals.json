@@ -1,0 +1,6368 @@
+{
+    "master_change_proposals": [
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1001",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1004",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1005",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1008",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1009",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1010",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1011",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.19
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1011",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1012",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1012",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1015",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1017",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 3,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1018",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1018",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1020",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.71
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1020",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1020",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1021",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1022",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1023",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1026",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1026",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1027",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1029",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1032",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1033",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.59
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1033",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1036",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1038",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1040",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1040",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1042",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.94
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1043",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1045",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.62
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1045",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1046",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.16
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1046",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1048",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1050",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.88
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1050",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1053",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1056",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.08
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1056",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1057",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.7
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1057",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1060",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1061",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.67
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1061",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1062",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.51
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1063",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1064",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1067",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.93
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1067",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1067",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1068",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.23
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1068",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1069",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1070",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.4
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1070",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1071",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.82
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1071",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1072",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1073",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.81
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1074",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.55
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1075",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.7
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1075",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1078",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1081",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1082",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1084",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.06
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1084",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1085",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.59
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1085",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1086",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.14
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1088",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.27
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1091",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1091",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1092",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1093",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.82
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1093",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1093",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1094",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.74
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1094",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1096",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1097",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.91
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1097",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1098",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.56
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1101",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1102",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.11
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1103",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1104",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.74
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1104",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1105",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1106",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1107",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1110",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.94
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1112",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.51
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1113",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1114",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1114",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1115",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1115",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1117",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 3,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1121",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.58
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1122",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.24
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1122",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1122",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1125",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.54
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1125",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1128",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1129",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1134",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1135",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1136",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1137",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.56
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1137",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1137",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1138",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1138",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1139",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1140",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.94
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1140",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1142",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.53
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1142",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1143",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.93
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1143",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1144",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.73
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1145",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.79
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1145",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1145",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1147",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1148",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.6
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1148",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1149",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1150",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1152",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1152",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 3,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1153",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1154",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.64
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1154",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1156",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.62
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1156",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1157",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.93
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1159",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.56
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1159",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1160",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1161",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1162",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 1.53
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1162",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1163",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1164",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1165",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1166",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.54
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1166",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1166",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1167",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.66
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1167",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1168",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.94
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1168",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1169",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1169",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1172",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.98
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1172",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1173",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.62
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1173",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1174",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.2
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1175",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1176",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.56
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1177",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1179",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.77
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1179",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1181",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_MANPOWER",
+            "TaskListOperationInternalId": "OP_1182",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "manpower_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1183",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1184",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": 0.56
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1184",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1186",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1188",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1190",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1192",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1193",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1194",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -1.34
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1195",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_DURATION",
+            "TaskListOperationInternalId": "OP_1196",
+            "confidence": "LOW",
+            "suggested": {
+                "hours": -0.53
+            },
+            "evidence": {
+                "frequency": 1,
+                "time_overrun_rate": 0.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1196",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 2,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        },
+        {
+            "type": "UPDATE_COMPONENT_QUANTITY",
+            "TaskListOperationInternalId": "OP_1198",
+            "confidence": "LOW",
+            "suggested": {
+                "quantity": 1,
+                "unit": "EA"
+            },
+            "evidence": {
+                "frequency": 1,
+                "material_overuse_rate": 1.0
+            }
+        }
+    ],
+    "order_level_analysis": {
+        "MO_2000": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1000",
+                    "delta": 0.37
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1000",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1000",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2001": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1001",
+                    "delta": -0.41
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1001",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1001",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2002": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1002",
+                    "delta": 0.25
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1002",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1002",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2003": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1003",
+                    "delta": 0.0
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1003",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1003",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2004": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1004",
+                    "delta": 0.15
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1004",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1004",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2005": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1005",
+                    "delta": -0.31
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1005",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1005",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2006": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1006",
+                    "delta": 0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1006",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1006",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2007": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1007",
+                    "delta": -0.39
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1007",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1007",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2008": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1008",
+                    "delta": -0.47
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1008",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1008",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2009": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1009",
+                    "delta": 0.08
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1009",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1009",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2010": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1010",
+                    "delta": -0.34
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1010",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1010",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2011": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1011",
+                    "delta": -1.19
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1011",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1011",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2012": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1012",
+                    "delta": 0.35
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1012",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1012",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2013": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1013",
+                    "delta": 0.17
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1013",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1013",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2014": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1014",
+                    "delta": -0.29
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1014",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1014",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2015": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1015",
+                    "delta": 0.23
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1015",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1015",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2016": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1016",
+                    "delta": 0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1016",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1016",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2017": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1017",
+                    "delta": -0.18
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1017",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1017",
+                    "delta": 3
+                }
+            ]
+        },
+        "MO_2018": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1018",
+                    "delta": -0.2
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1018",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1018",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2019": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1019",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1019",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1019",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2020": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1020",
+                    "delta": -0.71
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1020",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1020",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2021": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1021",
+                    "delta": 0.15
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1021",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1021",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2022": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1022",
+                    "delta": -0.16
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1022",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1022",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2023": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1023",
+                    "delta": -0.28
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1023",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1023",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2024": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1024",
+                    "delta": 0.05
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1024",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1024",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2025": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1025",
+                    "delta": -0.14
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1025",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1025",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2026": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1026",
+                    "delta": -0.43
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1026",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1026",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2027": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1027",
+                    "delta": -0.23
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1027",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1027",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2028": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1028",
+                    "delta": -0.11
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1028",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1028",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2029": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1029",
+                    "delta": -0.33
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1029",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1029",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2030": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1030",
+                    "delta": -0.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1030",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1030",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2031": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1031",
+                    "delta": 0.07
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1031",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1031",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2032": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1032",
+                    "delta": 0.36
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1032",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1032",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2033": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1033",
+                    "delta": -1.59
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1033",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1033",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2034": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1034",
+                    "delta": -0.13
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1034",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1034",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2035": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1035",
+                    "delta": 0.0
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1035",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1035",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2036": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1036",
+                    "delta": 0.35
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1036",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1036",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2037": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1037",
+                    "delta": 0.04
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1037",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1037",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2038": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1038",
+                    "delta": -0.15
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1038",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1038",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2039": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1039",
+                    "delta": 0.05
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1039",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1039",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2040": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1040",
+                    "delta": -0.39
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1040",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1040",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2041": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1041",
+                    "delta": 0.16
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1041",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1041",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2042": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1042",
+                    "delta": 0.94
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1042",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1042",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2043": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1043",
+                    "delta": -0.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1043",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1043",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2044": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1044",
+                    "delta": 0.07
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1044",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1044",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2045": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1045",
+                    "delta": -0.62
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1045",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1045",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2046": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1046",
+                    "delta": -1.16
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1046",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1046",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2047": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1047",
+                    "delta": -0.07
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1047",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1047",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2048": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1048",
+                    "delta": 0.24
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1048",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1048",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2049": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1049",
+                    "delta": -0.07
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1049",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1049",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2050": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1050",
+                    "delta": 0.88
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1050",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1050",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2051": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1051",
+                    "delta": 0.43
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1051",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1051",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2052": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1052",
+                    "delta": -0.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1052",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1052",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2053": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1053",
+                    "delta": 0.35
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1053",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1053",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2054": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1054",
+                    "delta": -0.0
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1054",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1054",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2055": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1055",
+                    "delta": 0.33
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1055",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1055",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2056": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1056",
+                    "delta": 1.08
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1056",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1056",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2057": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1057",
+                    "delta": 0.7
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1057",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1057",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2058": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1058",
+                    "delta": -0.49
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1058",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1058",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2059": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1059",
+                    "delta": 0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1059",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1059",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2060": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1060",
+                    "delta": 0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1060",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1060",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2061": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1061",
+                    "delta": 0.67
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1061",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1061",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2062": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1062",
+                    "delta": 0.51
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1062",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1062",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2063": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1063",
+                    "delta": -0.15
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1063",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1063",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2064": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1064",
+                    "delta": 0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1064",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1064",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2065": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1065",
+                    "delta": -0.04
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1065",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1065",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2066": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1066",
+                    "delta": -0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1066",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1066",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2067": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1067",
+                    "delta": -0.93
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1067",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1067",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2068": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1068",
+                    "delta": 1.23
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1068",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1068",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2069": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1069",
+                    "delta": -0.35
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1069",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1069",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2070": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1070",
+                    "delta": 1.4
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1070",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1070",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2071": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1071",
+                    "delta": -0.82
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1071",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1071",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2072": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1072",
+                    "delta": -0.04
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1072",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1072",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2073": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1073",
+                    "delta": 0.81
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1073",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1073",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2074": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1074",
+                    "delta": 0.55
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1074",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1074",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2075": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1075",
+                    "delta": 0.7
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1075",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1075",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2076": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1076",
+                    "delta": 0.03
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1076",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1076",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2077": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1077",
+                    "delta": 0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1077",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1077",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2078": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1078",
+                    "delta": -0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1078",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1078",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2079": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1079",
+                    "delta": 0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1079",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1079",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2080": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1080",
+                    "delta": 0.32
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1080",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1080",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2081": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1081",
+                    "delta": -0.11
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1081",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1081",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2082": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1082",
+                    "delta": -0.23
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1082",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1082",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2083": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1083",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1083",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1083",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2084": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1084",
+                    "delta": 1.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1084",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1084",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2085": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1085",
+                    "delta": -0.59
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1085",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1085",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2086": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1086",
+                    "delta": -1.14
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1086",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1086",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2087": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1087",
+                    "delta": -0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1087",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1087",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2088": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1088",
+                    "delta": -1.27
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1088",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1088",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2089": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1089",
+                    "delta": -0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1089",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1089",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2090": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1090",
+                    "delta": 0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1090",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1090",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2091": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1091",
+                    "delta": -0.31
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1091",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1091",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2092": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1092",
+                    "delta": -0.29
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1092",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1092",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2093": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1093",
+                    "delta": -1.82
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1093",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1093",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2094": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1094",
+                    "delta": 0.74
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1094",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1094",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2095": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1095",
+                    "delta": -0.0
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1095",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1095",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2096": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1096",
+                    "delta": -0.17
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1096",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1096",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2097": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1097",
+                    "delta": -0.91
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1097",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1097",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2098": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1098",
+                    "delta": -0.56
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1098",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1098",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2099": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1099",
+                    "delta": -0.24
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1099",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1099",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2100": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1100",
+                    "delta": 0.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1100",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1100",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2101": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1101",
+                    "delta": 0.0
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1101",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1101",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2102": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1102",
+                    "delta": 1.11
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1102",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1102",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2103": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1103",
+                    "delta": -0.48
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1103",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1103",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2104": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1104",
+                    "delta": -0.74
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1104",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1104",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2105": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1105",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1105",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1105",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2106": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1106",
+                    "delta": 0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1106",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1106",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2107": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1107",
+                    "delta": 0.26
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1107",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1107",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2108": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1108",
+                    "delta": -0.29
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1108",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1108",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2109": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1109",
+                    "delta": -0.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1109",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1109",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2110": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1110",
+                    "delta": -0.94
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1110",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1110",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2111": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1111",
+                    "delta": -0.12
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1111",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1111",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2112": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1112",
+                    "delta": -1.51
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1112",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1112",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2113": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1113",
+                    "delta": -0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1113",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1113",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2114": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1114",
+                    "delta": 0.4
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1114",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1114",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2115": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1115",
+                    "delta": 0.25
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1115",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1115",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2116": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1116",
+                    "delta": 0.45
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1116",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1116",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2117": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1117",
+                    "delta": -0.4
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1117",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1117",
+                    "delta": 3
+                }
+            ]
+        },
+        "MO_2118": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1118",
+                    "delta": 0.04
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1118",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1118",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2119": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1119",
+                    "delta": -0.16
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1119",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1119",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2120": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1120",
+                    "delta": 0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1120",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1120",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2121": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1121",
+                    "delta": -0.58
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1121",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1121",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2122": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1122",
+                    "delta": 1.24
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1122",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1122",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2123": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1123",
+                    "delta": -0.14
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1123",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1123",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2124": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1124",
+                    "delta": -0.14
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1124",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1124",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2125": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1125",
+                    "delta": 0.54
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1125",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1125",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2126": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1126",
+                    "delta": -0.12
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1126",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1126",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2127": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1127",
+                    "delta": -0.08
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1127",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1127",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2128": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1128",
+                    "delta": -0.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1128",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1128",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2129": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1129",
+                    "delta": 0.03
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1129",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1129",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2130": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1130",
+                    "delta": -0.11
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1130",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1130",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2131": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1131",
+                    "delta": -0.08
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1131",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1131",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2132": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1132",
+                    "delta": -0.06
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1132",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1132",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2133": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1133",
+                    "delta": 0.09
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1133",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1133",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2134": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1134",
+                    "delta": 0.01
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1134",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1134",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2135": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1135",
+                    "delta": -0.27
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1135",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1135",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2136": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1136",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1136",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1136",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2137": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1137",
+                    "delta": 0.56
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1137",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1137",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2138": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1138",
+                    "delta": 0.07
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1138",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1138",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2139": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1139",
+                    "delta": -0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1139",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1139",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2140": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1140",
+                    "delta": 0.94
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1140",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1140",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2141": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1141",
+                    "delta": 0.46
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1141",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1141",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2142": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1142",
+                    "delta": 1.53
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1142",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1142",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2143": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1143",
+                    "delta": 0.93
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1143",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1143",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2144": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1144",
+                    "delta": 0.73
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1144",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1144",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2145": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1145",
+                    "delta": -1.79
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1145",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1145",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2146": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1146",
+                    "delta": 0.03
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1146",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1146",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2147": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1147",
+                    "delta": 0.45
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1147",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1147",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2148": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1148",
+                    "delta": 0.6
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1148",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1148",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2149": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1149",
+                    "delta": 0.45
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1149",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1149",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2150": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1150",
+                    "delta": 0.19
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1150",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1150",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2151": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1151",
+                    "delta": -0.08
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1151",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1151",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2152": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1152",
+                    "delta": 0.44
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1152",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1152",
+                    "delta": 3
+                }
+            ]
+        },
+        "MO_2153": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1153",
+                    "delta": 0.2
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1153",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1153",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2154": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1154",
+                    "delta": 0.64
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1154",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1154",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2155": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1155",
+                    "delta": 0.47
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1155",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1155",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2156": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1156",
+                    "delta": -0.62
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1156",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1156",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2157": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1157",
+                    "delta": 0.93
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1157",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1157",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2158": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1158",
+                    "delta": 0.05
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1158",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1158",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2159": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1159",
+                    "delta": 0.56
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1159",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1159",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2160": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1160",
+                    "delta": -0.41
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1160",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1160",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2161": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1161",
+                    "delta": -0.09
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1161",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1161",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2162": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1162",
+                    "delta": 1.53
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1162",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1162",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2163": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1163",
+                    "delta": -0.3
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1163",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1163",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2164": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1164",
+                    "delta": 0.03
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1164",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1164",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2165": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1165",
+                    "delta": 0.3
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1165",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1165",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2166": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1166",
+                    "delta": 0.54
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1166",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1166",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2167": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1167",
+                    "delta": 0.66
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1167",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1167",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2168": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1168",
+                    "delta": -0.94
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1168",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1168",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2169": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1169",
+                    "delta": -0.38
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1169",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1169",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2170": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1170",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1170",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1170",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2171": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1171",
+                    "delta": 0.35
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1171",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1171",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2172": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1172",
+                    "delta": -0.98
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1172",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1172",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2173": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1173",
+                    "delta": -0.62
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1173",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1173",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2174": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1174",
+                    "delta": -1.2
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1174",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1174",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2175": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1175",
+                    "delta": 0.19
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1175",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1175",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2176": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1176",
+                    "delta": 0.56
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1176",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1176",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2177": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1177",
+                    "delta": 0.07
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1177",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1177",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2178": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1178",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1178",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1178",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2179": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1179",
+                    "delta": 0.77
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1179",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1179",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2180": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1180",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1180",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1180",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2181": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1181",
+                    "delta": -0.24
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1181",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1181",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2182": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1182",
+                    "delta": -0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1182",
+                    "delta": 1
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1182",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2183": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1183",
+                    "delta": 0.34
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1183",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1183",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2184": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1184",
+                    "delta": 0.56
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1184",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1184",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2185": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1185",
+                    "delta": 0.13
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1185",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1185",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2186": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1186",
+                    "delta": 0.38
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1186",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1186",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2187": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1187",
+                    "delta": 0.5
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1187",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1187",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2188": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1188",
+                    "delta": 0.07
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1188",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1188",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2189": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1189",
+                    "delta": 0.11
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1189",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1189",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2190": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1190",
+                    "delta": -0.16
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1190",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1190",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2191": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1191",
+                    "delta": 0.3
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1191",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1191",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2192": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1192",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1192",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1192",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2193": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1193",
+                    "delta": -0.49
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1193",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1193",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2194": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1194",
+                    "delta": -1.34
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1194",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1194",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2195": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1195",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1195",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1195",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2196": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1196",
+                    "delta": -0.53
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1196",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1196",
+                    "delta": 2
+                }
+            ]
+        },
+        "MO_2197": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1197",
+                    "delta": -0.1
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1197",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1197",
+                    "delta": 0
+                }
+            ]
+        },
+        "MO_2198": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1198",
+                    "delta": -0.02
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1198",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1198",
+                    "delta": 1
+                }
+            ]
+        },
+        "MO_2199": {
+            "time_deltas": [
+                {
+                    "operation_id": "OP_1199",
+                    "delta": -0.15
+                }
+            ],
+            "manpower_deltas": [
+                {
+                    "operation_id": "OP_1199",
+                    "delta": 0
+                }
+            ],
+            "material_deltas": [
+                {
+                    "operation_id": "OP_1199",
+                    "delta": 0
+                }
+            ]
+        }
+    }
+}
